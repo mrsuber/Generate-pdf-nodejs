@@ -1,0 +1,29 @@
+{
+  "name": "Generate-pdf-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js",
+    "start:dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsuber/Generate-pdf-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrsuber/Generate-pdf-nodejs/issues"
+  },
+  "homepage": "https://github.com/mrsuber/Generate-pdf-nodejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^2.0.15",
+    "pdf-creator-node": "^2.3.4"
+  }
+}
